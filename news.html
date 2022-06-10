@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>溯 Resux Wiki</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="溯 Resux Wiki">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="/css/vue.css">
+    <link rel="icon" href="img/logo.svg" />
+    
+</head>
+<body>
+<div id="app"></div>
+<script>
+    window.$docsify = {
+        name: '<img src="img/logo.svg" width="200">',
+        repo: 'https://wanjiongming.com/',
+        coverpage: true,
+        loadSidebar: true,
+        copyCode: {
+            buttonText : '复制到剪贴板',
+            errorText  : '错误',
+            successText: '已复制'
+        },
+        pagination: {
+            previousText: '上一章节',
+            nextText: '下一章节',
+            crossChapter: true,
+            crossChapterText: true,
+        },
+        search: {
+            maxAge: 86400000,
+            paths: 'auto',
+            placeholder: '搜索...',
+            noData: '找不到结果',
+        },
+    }
+</script>
+<!-- 使用 Docsify -->
+<script src="/js/docsify@4.min.js"></script>
+<script src="/js/emoji.min.js"></script>
+<script src="/js/search.min.js"></script>
+<script src="/js/zoom-image.min.js"></script>
+<script src="/js/docsify-pagination.min.js"></script>
+<script src="/js/docsify-copy-code.min.js"></script>
+
+</body>
+</html>
